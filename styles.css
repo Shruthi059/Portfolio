@@ -73,11 +73,6 @@ body{
   z-index: 1; 
 }
 
-.signature {
-  width: 100px; 
-  height:auto; 
-  margin-right: 10px; 
-}
 
 .header ul li:first-child {
   margin-right: auto; 
@@ -531,5 +526,27 @@ profile-photo .img{
     margin-bottom: 30px;
   }
 
+}
+.profile-text h1 {
+    font-size: 2rem; 
+    line-height: 1.2; 
+    text-align: center; 
+  }
+
+  .profile-text {
+    padding: 20px; 
+    width: 100%; 
+  }
+
+  .FirstElement {
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 2rem; 
+  }
+
+  .profile-text p {
+    text-align: center; 
+    font-size: 1rem;
+  }
 }
 
